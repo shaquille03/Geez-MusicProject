@@ -540,8 +540,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("Support Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("Daftar Putar", callback_data="playlist"),                   
                 ],
                 [InlineKeyboardButton(text="Close", callback_data="cls")],
             ]
