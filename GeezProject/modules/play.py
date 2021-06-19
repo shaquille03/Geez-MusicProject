@@ -580,7 +580,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("Support Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("Join Group", url="https://t.me/musikalitasID"),
                 ],
                 [InlineKeyboardButton(text="Close", callback_data="cls")],
             ]
@@ -706,7 +706,7 @@ async def deezer(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("Support Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("Join Group", url="https://t.me/musikalitasID"),
                 ],
                 [InlineKeyboardButton(text="Close", callback_data="cls")],
             ]
@@ -830,7 +830,7 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("Channel Support", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("Join Group", url="https://t.me/musikalitasID"),
                 ],
                 [InlineKeyboardButton(text="Close", callback_data="cls")],
             ]
